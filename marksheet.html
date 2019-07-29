@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./js/mark.js"></script>
+   
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/bb.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">MARK LIST</h1>
+    <form>
+    <table  align="center" class="br" class="table">
+        
+        <tr>
+            <td>name</td>
+            <td><input type="text" name="name" required id="namei" class="form-control"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td>sem</td>
+            <td>
+                <select name="" id="semi">
+                    <option value="">select sem</option>
+                    <option value="s1">s1</option>
+                    <option value="s2">s2</option>
+                    <option value="s3">s3</option>
+                    <option value="s4">s4</option>
+                    <option value="s5">s5</option>
+                    <option value="s6">s6</option>
+                    <option value="s7">s7</option>
+                    <option value="s8">s8</option>
+                </select>
+            </td>
+            <td>exame code</td>
+            <td><input type="text" name="" id="codei" class="form-control"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>subject1 name</td>
+            <td><input type="text" name="" id="sm1" class="form-control"></td>
+            <td>subject1 marks</td>
+            <td><input type="text" name="" id="sm2" class="form-control"></td>
+            <td>subject1 total marks</td>
+            <td><input type="text" name="" id="sm3" class="form-control"></td>
+        </tr>
+        <tr>
+                <td>subject2 name</td>
+                <td><input type="text" name="" id="2sni" class="form-control"></td>
+                <td>subject2 marks</td>
+                <td><input type="text" name="" id="2smi" class="form-control"></td>
+                <td>subject2 total marks</td>
+                <td><input type="text" name="" id="2sti" class="form-control"></td>
+            </tr>
+            <tr>
+                    <td>subject3 name</td>
+                    <td><input type="text" name="" id="3sni" class="form-control"></td>
+                    <td>subject3 marks</td>
+                    <td><input type="text" name="" id="3smi" class="form-control"></td>
+                    <td>subject3 total marks</td>
+                    <td><input type="text" name="" id="3sti" class="form-control"></td>
+                </tr>
+                <tr>
+                        <td>subject4 name</td>
+                        <td><input type="text" name="" id="4sni" class="form-control"></td>
+                        <td>subject4 marks</td>
+                        <td><input type="text" name="" id="4smi" class="form-control"></td>
+                        <td>subject1 tota4 marks</td>
+                        <td><input type="text" name="" id="4sti" class="form-control"></td>
+                    </tr>
+                    <tr>
+                            <td>subject5 name</td>
+                            <td><input type="text" name="" id="5sni" class="form-control"></td>
+                            <td>subject5 marks</td>
+                            <td><input type="text" name="" id="5smi" class="form-control"></td>
+                            <td>subject5 total marks</td>
+                            <td><input type="text" name="" id="5sti" class="form-control"></td>
+                        </tr>
+                        <tr>
+                                <td>subject6 name</td>
+                                <td><input type="text" name="" id="6sni" class="form-control"></td>
+                                <td>subject6 marks</td>
+                                <td><input type="text" name="" id="6smi" class="form-control"></td>
+                                <td>subject6 total marks</td>
+                                <td><input type="text" name="" id="6sti" class="form-control"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td><button type="button" class="btn btn-success" onclick="getmark();">generate mark list</button></td>
+                                
+                                
+                            </tr>
+                            
+    </table>
+    <table class="table">
+            <tr>
+                    <td><p id="result1"></p></td>
+                    
+                    <td><p  id="result2"></p></td>
+                    
+                    <td><p  id="result3"></p></td>
+                </tr>
+                </table>
+                <table class="table">
+                    <thead>
+                        <th>
+                            <td><p id="result4"></p></td>
+                            <td><p id="result5"></p></td>
+                            <td><p id="result6"></p></td>
+                            <td><p id="result7"></p></td>
+
+                    </th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td><p id="result8"></p></td>
+                            <td><p id="result9"></p></td>
+                            <td><p id="result10"></p></td>
+                            <td><p id="resulta"></p></td>
+                        </tr>
+                        <tr>
+                                <td></td>
+                                <td><p id="result11"></p></td>
+                                <td><p id="result12"></p></td>
+                                <td><p id="result13"></p></td>
+                                <td><p id="resultb"></p></td>
+                            </tr>
+                            <tr>
+                                    <td></td>
+                                    <td><p id="result14"></p></td>
+                                    <td><p id="result15"></p></td>
+                                    <td><p id="result16"></p></td>
+                                    <td><p id="resultc"></p></td>
+                                </tr>
+                                <tr>
+                                        <td></td>
+                                        <td><p id="result17"></p></td>
+                                        <td><p id="result18"></p></td>
+                                        <td><p id="result19"></p></td>
+                                        <td><p id="resultd"></p></td>
+                                        </tr>
+                                        <tr>
+                                                <td></td>
+                                                <td><p id="result20"></p></td>
+                                                <td><p id="result21"></p></td>
+                                                <td><p id="result22"></p></td>
+                                                <td><p id="resulte"></p></td>
+                                                </tr>
+                                                <tr>
+                                                        <td></td>
+                                                        <td><p id="result23"></p></td>
+                                                        <td><p id="result24"></p></td>
+                                                        <td><p id="result25"></p></td>
+                                                        <td><p id="resultf"></p></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td><p id="tony"></p></td>
+                                                            <td><p id="sts"></p></td>
+                                                        </tr>
+                
+        
+
+                    </tbody>
+                </table>
+</form>
+</body>
+</html>

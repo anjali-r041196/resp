@@ -1,0 +1,11 @@
+                        .msg {
+                            color: black
+                        }
+                        
+                        .ms {
+                            border: 2px solid black
+                        }
+                        
+                        body {
+                            background: url('../cat.jfif')
+                        }
